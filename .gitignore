@@ -1,0 +1,59 @@
+# Hidden files:
+
+.*
+
+# compressed files:
+*.tar
+*.gz
+*.zip
+*.rar
+*.7z
+
+# Docker.gitignore #
+
+docker/app/log
+docker/elasticsearch/data
+docker/mysql/data
+docker/nginx/cache
+docker/nginx/log
+docker/nginx/root
+docker/.env
+
+# Mac.gitignore ###############################################################
+
+# Icon must end with two \r
+Icon
+
+
+# Directories potentially created on remote AFP share
+Network Trash Folder
+Temporary Items
+
+# Windows.gitignore ###########################################################
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Linux.gitignore #############################################################
+
+*~
+
+# Unignore:
+
+!.gitignore
