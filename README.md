@@ -1,4 +1,4 @@
-# A Quick Start Script for Web Server
+# A Quick Start Script for Static Web Server
 
 A simple script to start a www server for static resources.
 
